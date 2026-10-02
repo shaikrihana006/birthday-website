@@ -3,7 +3,7 @@ function showMessage() {
     document.getElementById("message").innerHTML =
         "💖 You are an amazing person! 💖<br><br>" +
         "May your birthday be filled with happiness, " +
-        "laughter and beautiful memories! 🎂✨";
+        "laughter and beautiful memories!love you jaanam 🎂✨";
 
     document.getElementById("message").classList.add("show");
 
