@@ -2,20 +2,23 @@ function showMessage() {
 
     document.getElementById("message").innerHTML =
         "💖 You are an amazing person! 💖<br><br>" +
-        "May your birthday be filled with happiness, " +
-        "laughter and beautiful memories!love you jaanam 🎂✨";
-         "🎂✨ Happy Birthday to a truly wonderful person! 💖
+        "🎂✨ Happy Birthday to a truly wonderful person! 💖<br><br>" +
 
-May your special day be filled with endless happiness, beautiful smiles, unforgettable moments, and lots of love. 🌸✨
+        "May your special day be filled with endless happiness, " +
+        "beautiful smiles, unforgettable moments, and lots of love. 🌸✨<br><br>" +
 
-May all your dreams slowly turn into reality, and may every new year of your life bring you more reasons to smile. 🌟
+        "May all your dreams slowly turn into reality, " +
+        "and may every new year of your life bring you more reasons to smile. 🌟<br><br>" +
 
-Keep shining, keep smiling, and always stay the amazing person you are. 💕🥳
+        "Keep shining, keep smiling, and always stay the amazing person you are. 💕🥳<br><br>" +
 
-Wishing you a lifetime of happiness, success, laughter, and beautiful memories.
+        "Wishing you a lifetime of happiness, success, laughter, " +
+        "and beautiful memories. 🎉<br><br>" +
 
-🎉🎂 HAPPY BIRTHDAY! 🎂🎉
-May your day be as special and wonderful as you are! 💖✨"
+        "Love you jaanam! 💖✨<br><br>" +
+
+        "🎉🎂 HAPPY BIRTHDAY! 🎂🎉<br>" +
+        "May your day be as special and wonderful as you are! 💖✨";
 
     document.getElementById("message").classList.add("show");
 
@@ -25,7 +28,6 @@ May your day be as special and wonderful as you are! 💖✨"
         const confetti = document.createElement("div");
 
         confetti.className = "confetti";
-
         confetti.innerHTML = "🎊";
 
         confetti.style.left = Math.random() * 100 + "vw";
